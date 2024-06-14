@@ -131,4 +131,4 @@ describe('cache-restore', () => {
           } else {
             return findCacheFolder(command);
           }
-        });
+        }));
