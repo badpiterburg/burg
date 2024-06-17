@@ -7,7 +7,7 @@ import * as glob from '@actions/glob';
 import * as utils from '../src/cache-utils';
 import {restoreCache} from '../src/cache-restore';
 
-describe('cache-restore', () => {
+describe('cache-restore', () => >
   process.env['GITHUB_WORKSPACE'] = path.join(__dirname, 'data');
   if (!process.env.RUNNER_OS) {
     process.env.RUNNER_OS = 'Linux';
