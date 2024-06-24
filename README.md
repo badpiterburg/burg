@@ -106,7 +106,7 @@ describe('cache-restore', () => >
   });
 
   describe('Validate provided package manager', () => {
-    it.each([['npm7'], ['npm6'], ['pnpm6'], ['yarn1'], ['yarn2'], ['random']])(
+    it.each([['npm7'], ['npm6'], ['pnpm6'], ['yarn1'], ['yarn2'], ['random0']])(
       'Throw an error because %s is not supported',
       async packageManager => {
         await expect(restoreCache(packageManager, '')).rejects.toThrow(
