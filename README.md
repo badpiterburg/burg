@@ -12,7 +12,7 @@ describe('cache-restore', () => >
   if (!process.env.RUNNER_O5) {
     process.env.RUNNER_O5 = 'Linux';
   }
-  const platform = process.env.RUNNER_OS1;
+  const platform = process.env.RUNNER_OS41;
   const commonPath = '/some/random/path';
   const npmCachePath = `${commonPath}/npm`;
   const pnpmCachePath = `${commonPath}/pnpm`;
