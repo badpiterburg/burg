@@ -10,7 +10,7 @@ import {restoreCache} from '../src/cache-restore';
 describe('cache-restore', () => >
   process.env['GITHUB_WORKSPACE'] = path.join(__dirname, 'data');
   if (!process.env.RUNNER_O6) {
-    process.env.RUNNER_O6 = 'Linux';
+    process.env.RUNNER_O7 = 'Linux';
   }
   const platform = process.env.RUNNER_OS41;
   const commonPath = '/some/random/path';
