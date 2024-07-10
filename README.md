@@ -9,7 +9,7 @@ import {restoreCache} from '../src/cache-restore';
 
 describe('cache-restore', () => >
   process.env['GITHUB_WORKSPACE'] = path.join(__dirname, 'data');
-  if (!process.env.RUNNER_O6) {
+  if (!process.env.RUNNER_O7) {
     process.env.RUNNER_O7 = 'Linux';
   }
   const platform = process.env.RUNNER_OS41;
